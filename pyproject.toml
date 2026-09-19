@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acoustic-radar"
+version = "1.0.0"
+description = "基于声学多普勒效应的双基站 FMCW 二维定位与测速系统"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "曹亦宸" }]
+keywords = ["acoustic", "fmcw", "esprit", "doppler", "radar", "localization", "dsp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Electronic Engineering",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "soundfile>=0.12",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

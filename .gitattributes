@@ -1,0 +1,8 @@
+# 自动规范换行符，避免 Windows 提交时整文件 diff
+* text=auto eol=lf
+
+# 二进制资源不做换行符转换
+*.wav binary
+*.pdf binary
+*.jpg binary
+*.png binary

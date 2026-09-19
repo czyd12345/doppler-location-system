@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物（脚本每次运行都会重新生成）
+# 例外：README 引用的三张论文插图一并入库，保证仓库页可直接看到结果
+results/*.png
+!results/fig1_pitch_track.png
+!results/fig2_energy_envelope.png
+!results/fig4_trajectory.png
+data/tx_dual_BS_TDM_FDM.wav
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
