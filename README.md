@@ -131,7 +131,7 @@ flowchart LR
 ├── data/                     输入音频
 │   ├── sound.wav                     圆周运动实测录音（8 kHz, 5 s）
 │   ├── rx_field_test_raw.wav         双基站外场实测录音（48 kHz, 11 s）
-│   └── tx_dual_BS_TDM_FDM.wav        TDM 立体声发射波形（由脚本生成）
+│   └── tx_dual_BS_TDM_FDM.wav        TDM 立体声发射波形（首次运行脚本时自动生成）
 │
 ├── scripts/                  可执行入口
 │   ├── 01_circular_motion.py         实验一：圆周运动参数估计 + 波形生成
